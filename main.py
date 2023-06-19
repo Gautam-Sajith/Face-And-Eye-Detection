@@ -1,8 +1,6 @@
-
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt
-
 # Define our imshow function
 def imshow(title = "Image", image = None, size = 8):
     h, w = image.shape[0], image.shape[1]
